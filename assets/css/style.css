@@ -48,6 +48,10 @@ body {
   background: #fff;
 }
 
+h3 a {
+  color: #fff;
+}
+
 .pull-left{
   float: left;
 }
