@@ -137,15 +137,54 @@ footer {
   The width of the wrapper will be 960px
   at browser widths above 768px
 */
-body {
+
+body my-navbar {
   width: 960px;
 }
 
+
+
+
+@media screen and (max-width: 960px) {
+  
+  .index-container {
+    margin-left: 5px;
+  }
+  
+  .contact-container {
+    margin-left: 5px;
+  }
+  
+  .portfolio-container {
+    margin-left: 0px;
+  }
+  
+  #columnsContainer {
+    margin-left: 190px;
+  }
+    
+    
+  }
+
+
 @media screen and (max-width: 768px) {
   
-  body {
-    width: 100%;
-  }
+.index-container {
+  margin-left: 5px;
+}
+
+.contact-container {
+  margin-left: 5px;
+}
+
+.portfolio-container {
+  margin-left: 0px;
+}
+
+#columnsContainer {
+  margin-left: 190px;
+}
+  
   
 }
 
@@ -154,8 +193,20 @@ body {
 /* Width at 640px and below */
 @media screen and (max-width: 640px) {
 
-  body {
-    width: 100%;
+  .index-container {
+    margin-left: 5px;
+  }
+  
+  .contact-container {
+    margin-left: 5px;
+  }
+  
+  .portfolio-container {
+    margin-left: 0px;
+  }
+
+  #columnsContainer {
+    margin-left: 130px;
   }
   
 }
